@@ -1,0 +1,52 @@
+*{
+   
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+ padding: -20px;
+}
+.container{
+    color: yellow;
+display: flex;
+flex-wrap: nowrap;
+
+
+}
+.logo{
+    width:200px
+}
+
+.navbar .list ul {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.portfolio h2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.portfolio p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.portfolio-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  
+.item{
+   
+    width:33%;
+}
